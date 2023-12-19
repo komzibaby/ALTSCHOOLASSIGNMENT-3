@@ -63,7 +63,7 @@ button {
   border: 2px solid rgba(100, 110, 122, 1);
   padding-inline: 11px;
   padding-block: 12px;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .headerInfo > ul li a {
