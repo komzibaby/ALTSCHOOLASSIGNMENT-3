@@ -25,21 +25,23 @@ button {
 }
 
 .container {
-  width: 1440px;
+  /* width: 1440px; */
   height: 1170px;
   margin: 0 auto;
   padding-inline: 40px;
   font-family: "Lato", sans-serif;
+  overflow: hidden;
 }
 
 .headerInfo {
-  width: 1360px;
+  /* width: 1360px; */
   height: 73px;
   margin-block-start: 28px;
   border-block-end: 2px solid rgba(224, 230, 234, 1);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 .headerInfo > img {
@@ -61,6 +63,7 @@ button {
   border: 2px solid rgba(100, 110, 122, 1);
   padding-inline: 11px;
   padding-block: 12px;
+  border-radius: 5px;
 }
 
 .headerInfo > ul li a {
@@ -80,6 +83,7 @@ button {
     0px 15px 35px 0px rgba(43, 64, 78, 0.1);
 
   display: flex;
+  overflow: hidden;
 }
 
 .left-section {
